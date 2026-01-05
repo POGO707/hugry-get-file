@@ -88,7 +88,7 @@ const Menu: React.FC = () => {
 
   const handleOrder = (itemName: string) => {
     const text = encodeURIComponent(`Hi! I would like to order: ${itemName}.`);
-    window.open(`https://wa.me/919123822622?text=${text}`, '_blank');
+    window.open(`https://wa.me/919477193213?text=${text}`, '_blank');
   };
 
   const handleExternalOrder = (platform: string) => {

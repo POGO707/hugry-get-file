@@ -47,11 +47,11 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
   };
 
   const handleWhatsApp = () => {
-    window.open('https://wa.me/919123822622?text=Hi! I want to know more about your menu.', '_blank');
+    window.open('https://wa.me/919477193213?text=Hi! I want to know more about your menu.', '_blank');
   };
 
   const handleCall = () => {
-    window.location.href = 'tel:+919123822622';
+    window.location.href = 'tel:+919477193213';
   };
 
   const handleDirections = () => {
@@ -270,7 +270,7 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
           </p>
           <div className="mb-8 space-y-2">
              <p className="font-bold text-brand-dark flex items-center gap-2"><Clock size={20} className="text-brand-primary"/> Open · Closes 10:30 PM</p>
-             <p className="font-bold text-brand-dark flex items-center gap-2"><Phone size={20} className="text-brand-primary"/> 091238 22622</p>
+             <p className="font-bold text-brand-dark flex items-center gap-2"><Phone size={20} className="text-brand-primary"/> 94771 93213</p>
           </div>
           <div className="flex flex-col gap-4">
              <button 

@@ -41,8 +41,8 @@ const Layout: React.FC<LayoutProps> = ({ children, currentPage, onNavigate }) =>
   };
 
   const mapLink = "https://www.google.com/maps/search/?api=1&query=P+N+DAS+COLLEGE+Palta+West+Bengal";
-  const phoneNumber = "09123822622";
-  const displayPhone = "091238 22622";
+  const phoneNumber = "9477193213";
+  const displayPhone = "94771 93213";
 
   return (
     <div className="flex flex-col min-h-screen">

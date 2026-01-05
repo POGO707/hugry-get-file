@@ -18,7 +18,7 @@ const Contact: React.FC = () => {
     const text = encodeURIComponent(
       `Hi, my name is ${formData.name}. Phone: ${formData.phone}. Message: ${formData.message}`
     );
-    window.open(`https://wa.me/919123822622?text=${text}`, '_blank');
+    window.open(`https://wa.me/919477193213?text=${text}`, '_blank');
   };
 
   const handleView360 = () => {
@@ -43,7 +43,7 @@ const Contact: React.FC = () => {
                  </div>
                  <div>
                    <h3 className="font-bold text-lg mb-1">Phone</h3>
-                   <a href="tel:+919123822622" className="text-gray-600 hover:text-brand-primary font-medium">091238 22622</a>
+                   <a href="tel:+919477193213" className="text-gray-600 hover:text-brand-primary font-medium">94771 93213</a>
                  </div>
                </div>
                
@@ -95,7 +95,7 @@ const Contact: React.FC = () => {
                      onChange={handleChange}
                      required
                      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-primary focus:border-transparent outline-none transition-all" 
-                     placeholder="+91 91238 22622" 
+                     placeholder="+91 94771 93213" 
                    />
                  </div>
                  <div>
